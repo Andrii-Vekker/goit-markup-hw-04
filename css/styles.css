@@ -124,11 +124,16 @@ a {
   margin-right: 50px;
 }
 /* contacts */
+
 .adress {
   margin-left: auto;
 }
 .list-adress {
   display: flex;
+}
+.list-adress-item {
+  display: flex;
+  align-items: center;
 }
 .list-adress-item + .list-adress-item {
   margin-left: 30px;
@@ -141,13 +146,28 @@ a {
   letter-spacing: 0.02em;
   color: var(--text-color);
 }
+
 .list-adress-item-link:hover,
 .list-adress-item-link:focus {
   color: var(--accent-color);
 }
+.link-svg:hover {
+  fill: var(--accent-color);
+}
+.link-svg {
+  width: 16px;
+  height: 11px;
+  margin-right: 10px;
+  fill: var(--text-color);
+}
+.phone {
+  width: 10px;
+  height: 15px;
+  margin-right: 10px;
+}
 /* hero */
 .hero {
-  background-color: black;
+  max-width: 1600px;
   text-align: center;
   padding-top: 199px;
   padding-bottom: 200px;
