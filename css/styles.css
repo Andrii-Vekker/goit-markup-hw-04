@@ -312,6 +312,8 @@ a {
 }
 .our-team-list > li {
   width: 270px;
+  box-shadow: 0px 2px 1px rgba(0, 0, 0, 0.2), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 1px 3px rgba(0, 0, 0, 0.12);
 }
 .our-team-list-ikon {
   display: flex;
@@ -343,6 +345,13 @@ a {
 }
 .our-team-list-ikon-item:not(:last-child) {
   margin-right: 10px;
+}
+.our-projects-list-item {
+  border: 1px solid #eeeeee;
+}
+.our-projects-list-item:hover {
+  box-shadow: 1px 4px 6px rgba(0, 0, 0, 0.16), 0px 4px 4px rgba(0, 0, 0, 0.06),
+    0px 1px 1px rgba(0, 0, 0, 0.12);
 }
 /* regular customers */
 .regular-customers {
