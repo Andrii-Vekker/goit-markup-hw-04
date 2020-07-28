@@ -154,14 +154,16 @@ a {
   letter-spacing: 0.02em;
   color: var(--text-color);
 }
-
 .list-adress-item-link:hover,
 .list-adress-item-link:focus {
   color: var(--accent-color);
 }
-.link-svg:hover {
+
+.list-adress-item-link:hover svg,
+.list-adress-item-link:focus svg {
   fill: var(--accent-color);
 }
+
 .link-svg {
   width: 16px;
   height: 11px;
@@ -175,6 +177,7 @@ a {
 }
 /* hero */
 .hero {
+  margin: auto;
   max-width: 1600px;
   text-align: center;
   padding-top: 199px;
@@ -202,6 +205,8 @@ a {
   color: var(--secondary-title-font-color);
 }
 .btn-service {
+  border-radius: 4px;
+  border: none;
   font-style: normal;
   font-weight: bold;
   font-size: 16px;
@@ -209,6 +214,7 @@ a {
   letter-spacing: 0.06em;
   color: var(--secondary-title-font-color);
   background-color: var(--accent-color);
+  cursor: pointer;
 }
 /* about us */
 .list-about-us {
@@ -334,6 +340,10 @@ a {
 .our-team-list-ikon-item-link:focus {
   background-color: var(--accent-color);
 }
+.our-team-list-ikon-item-link:hover svg,
+.our-team-list-ikon-item-link:focus svg {
+  fill: var(--secondary-title-font-color);
+}
 .our-team-list-ikon-item-link-svg {
   width: 20px;
   height: 20px;
@@ -452,6 +462,11 @@ a {
   border-radius: 50%;
   background: rgba(255, 255, 255, 0.1);
 }
+.our-team-list-ikon-item-link-svg-footer {
+  width: 20px;
+  height: 20px;
+  fill: var(--secondary-title-font-color);
+}
 .subscribe-main {
   padding-top: 72px;
   padding-bottom: 94px;
@@ -485,6 +500,9 @@ a {
   background-color: var(--accent-color);
   box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.12), 0px 1px 2px rgba(0, 0, 0, 0.08),
     0px 3px 1px rgba(0, 0, 0, 0.1);
+  color: var(--bcg-icon-color);
+  border-radius: 4px;
+  border: none;
 }
 /* our projects */
 .techno {
